@@ -1,11 +1,18 @@
-import "./App.css";
+import React from "react";
+
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Title</h1>
-      <p>Lorem ipsum dolor sit amet ...</p>
-    </div>
+    <>
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
+      <Footer></Footer>
+    </>
   );
 }
 
